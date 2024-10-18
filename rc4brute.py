@@ -3,7 +3,7 @@ from itertools import product
 import binascii
 
 # The encrypted message in hexadecimal
-ciphertext_hex = "6fce38f8836e82d446c3af46eb3a945a97bb8088256751e47f73a02943883165"
+ciphertext_hex = ""
 ciphertext = binascii.unhexlify(ciphertext_hex)
 
 # Convert to bytes
